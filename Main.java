@@ -38,9 +38,9 @@ public class Main {
                     }
                 }
                 bw.write("Peter should buy books whose prices are " + minA + " and " + minB + "." + "\n\n");
-                bw.flush();
             }
         }
+        bw.flush();
         br.close();
         bw.close();
     }
